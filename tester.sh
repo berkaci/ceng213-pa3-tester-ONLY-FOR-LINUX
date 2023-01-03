@@ -6,6 +6,8 @@ g++ -O0 main-facem.cpp
 g++ -O0 main-tux.cpp
 ./a.out
 
+mkdir your_outputs your_outputs/man-low your_outputs/facem-low2 your_outputs/Tux
+
 cd your_outputs
 passed=0
 for i in */*
