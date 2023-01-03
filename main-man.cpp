@@ -57,9 +57,9 @@ int main(int argv, const char* argc[])
         ff << string("Vertex ")<< i << ":\n";
         ff << "VertexEdgeCount: " << g.VertexEdgeCount(i)<< endl;
         ff << "ImmediateNeighbours: " ;
-        sort(outv.begin(), outv.end());
 
         g.ImmediateNeighbours(outv, i);
+        sort(outv.begin(), outv.end());
         for(int j=0; j<outv.size(); j++)
         {
             ff << outv[j] << " ";
