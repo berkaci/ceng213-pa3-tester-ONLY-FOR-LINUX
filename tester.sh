@@ -1,12 +1,12 @@
 #!/bin/bash
+mkdir your_outputs your_outputs/man-low your_outputs/facem-low2 your_outputs/Tux
+
 g++ -O0 main-man.cpp
 ./a.out
 g++ -O0 main-facem.cpp
 ./a.out
 g++ -O0 main-tux.cpp
 ./a.out
-
-mkdir your_outputs your_outputs/man-low your_outputs/facem-low2 your_outputs/Tux
 
 cd your_outputs
 passed=0
